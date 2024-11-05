@@ -16,16 +16,17 @@
                                     text-align: center;
                                     
                                     background-image:linear-gradient(to bottom ,#070211,#ffffff00), url('../resources/Banner\ Image.png');
-                                    background-size:;
+                                    background-size: cover;
                                     background-repeat: no-repeat;
-                                    height: 720px;
+                                    /* height: 500px;
+                                    width: 1400px; */
                                     width: 1000px;
-                                    
+                                    height: 300px;
                                     color: #FFFFFF;
                                     background-position: top center;
                                     padding: 150px;
                                     font-weight: bolder;
-                                    margin: 30px 100px 800px 100px;
+                                    margin: 30px 100px 100px 100px;
                                     border-radius: 10px;
                                     
                                     
@@ -232,5 +233,82 @@ position: relative;
 }
 .whole{
                                     margin: 90px;
+}
+.mail-icon{
+                                    justify-content: center;
+                                    display: flex;
+}
+.subs-p{
+  text-align: center;
+}
+.newsletter{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.subs-news{
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+.para{
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.btn-hei{
+  width: 200px;
+  height: 80px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #FF0000;
+  color: #FFFFFF;
+  border: none;
+}
+.form, input[type="email"]{
+  display: block;
+  height: 75px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 500px;
+  font-size: 20px;
+  border: none;
+  
+  
+}
+.subscribe-box{
+  background-color: #ff000011;
+  margin: 95px;
+  padding: 80px;
+
+}
+.add-web{
+    gap:50% ;
+}
+.add-no{
+  display: flex;
+}
+.footer{
+  display: flex;
+    background-color:#070211 ; 
+   color: #FFFFFF; 
+}
+.social-icon{
+  display: flex;
+  justify-items: center;
+  margin: 0px 500px;
+  
+}
+.btn-flex{
+  display: flex;
+  gap: 85%;
+}
+.button-size{
+  
+  height: 30px;
+  font-size: 10px;
+  font-weight: bolder;
+  border: none;
+  background-color:transparent;
+  color: #FFFFFF; 
 }
 
